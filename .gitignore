@@ -1,0 +1,133 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Node (for web dashboards)
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Hardware/firmware
+*.hex
+*.elf
+*.asm
+*.o
+.build/
+
+# Data (sensitive or large)
+*.db
+*.sqlite
+*.sqlite3
+/datasets/raw/
+/datasets/training/
+/datasets/sensitive/
+*.csv.bak
+*.json.bak
+
+# Model checkpoints (large files)
+/models/checkpoints/
+/models/trained/
+*.pth
+*.ckpt
+*.pkl
+
+# Deployment
+.terraform/
+terraform.tfstate*
+*.pem
+*.key
+*.crt
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.temp
+*.tmp
+*~
+.#*
+
+# Research/experiment outputs
+/experiments/results/
+/experiments/logs/
+/notebooks/output/
+
+# Docker
+.dockerignore
+
+# System files
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
